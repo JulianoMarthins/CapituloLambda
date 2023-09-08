@@ -1,0 +1,40 @@
+
+Comparadores => Os comparadores em Java lambda, são funções que comparam dois objetos e retornam um valor booleano indicando se o primeiro objeto é menor, igual ou maior que o segundo objeto. De acordo com o critério definido pelo programador
+
+Interface funcional => É uma interface que possui apenas um método abstrato, sendo utilizada como base para a criação de expressões lambdas. Ela permite que você defina um comportamento específico para ser utilizado em um contexto onde é esperada uma implementação dessa interface.
+
+Cálculos funcionais => São expressões matemáticas ou operações que podem ser realizadas sobre um ou mais objetos de entrada, utilizando funções lambda para definir o comportamento específico a ser aplicado em cada operação. Eles permitem que você faça cálculos e manipulação de dados da forma mais concisa e clara do que utilizando abordagens tradicionais.
+
+Consumer => É uma interface funcional que representa uma operação que aceita um único argumento e não retorna nenhum resultado. Ele é usado para realizar ações ou manipulações em um objeto de entrada, sem necessariamente retornar um valor. Um consumer pode ser utilizado para percorrer uma lista de elementos e realizar uma ação específica em cada um deles.
+
+
+Function => É uma interface funcional que representa uma função que recebe um argumento de um tipo especificado e retorna um resultado de outro tipo especificado. Ela é utilizada para mapear um valor de entrada para um valor de saída, permitindo transformações ou cálculos sobre os dados. Um function pode ser encadeada com outras funções ou operações para criar pipelines de processamento de dados.
+
+Lista de funções úteis intermediárias na Stream
+
+•	Filter
+•	Map
+•	Flatmap
+•	Peek
+•	Sorted
+•	Skip
+•	Limit(*)
+
+
+Lista de funções úteis terminais na Stream
+
+•	forEach
+•	forEachOrdered
+•	toArray
+•	reduce
+•	collect
+•	min
+•	Max
+•	Conut
+•	anyMatch
+•	allMatch
+•	nomeMatch
+•	findFirst
+•	fintAny
+•
+
